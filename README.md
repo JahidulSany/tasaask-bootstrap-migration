@@ -1,10 +1,10 @@
 # 🌐 Migrate TaSaaSk to Bootstrap [5] - A Task Manager SaaS App — Jahidul Sany
 
-Tasaask (often referred to as Task SaaS) is a professional-grade, multipage task-tracker website template built using HTML5 and CSS3. It is designed for entrepreneurs and project managers looking for a scalable, mobile-responsive solution to manage workflows and teams. In this project the Tasaask project has been migrated to Bootstrap 5 and also has been added some dynamic interactions using jQuery UI library.  
+Tasaask (often referred to as Task SaaS) is a professional-grade, multipage task-tracker website template built using HTML5 and CSS3. It is designed for entrepreneurs and project managers looking for a scalable, mobile-responsive solution to manage workflows and teams. In this project the Tasaask project has been migrated to Bootstrap 5 and also has been added some dynamic interactions using jQuery UI library.
 
 Welcome to the source code for my multipage Bootstrap SaaS website — a professional showcase of my skills as a full-stack developer.
 
-🔗 **Live Demo:** https://jahidulsany.github.io/tasaask-bootstrap-migration/ 
+🔗 **Live Demo:** https://jahidulsany.github.io/tasaask-bootstrap-migration/ <br>
 📁 **Repository:** https://github.com/JahidulSany/tasaask-bootstrap-migration
 
 ---
@@ -17,24 +17,23 @@ This project is a task-tracker SaaS app built using **HTML5**, **CSS3**, **Boost
 
 ## 🚀 Features
 
-✔️ Responsive layout — looks great on desktop, tablet, and mobile  
-✔️ Bootstrap 5 
-✔️ jQuery UI for dynamic content and interactions. 
-✔️ Features, services and pricing of the SaaS App 
-✔️ Contact form and social media details for business inquiries  
-✔️ Clean and modern UI with focus on readability and accessibility
+✔️ Responsive layout — looks great on desktop, tablet, and mobile <br>
+✔️ Bootstrap 5 <br>
+✔️ jQuery UI for dynamic content and interactions. <br>
+✔️ Features, services and pricing of the SaaS App <br>
+✔️ Contact form and social media details for business inquiries <br>
+✔️ Clean and modern UI with focus on readability and accessibility <br>
 
 ---
 
 ## 🧠 Technologies Used
 
-| Frontend |  
-|----------|  
-| HTML5     |  
-| CSS3      |  
-| Bootstrap 5     |  
-| jQuery UI      |  
-
+| Frontend    |
+| ----------- |
+| HTML5       |
+| CSS3        |
+| Bootstrap 5 |
+| jQuery UI   |
 
 ---
 
@@ -43,11 +42,14 @@ This project is a task-tracker SaaS app built using **HTML5**, **CSS3**, **Boost
 ### View Locally
 
 1. **Clone the repository**
+
    ```sh
-	git clone https://github.com/JahidulSany/tasaask-bootstrap-migration.git
+   git clone https://github.com/JahidulSany/tasaask-bootstrap-migration.git
+
+   ```
 
 2. **Open index.html** <br>
-	Simply open the file in your browser — no build tools needed.
+   Simply open the file in your browser — no build tools needed.
 
 ⸻
 
@@ -57,7 +59,7 @@ Feel free to reach out if you’d like to connect or work together!
 
 📧 Email: jahidulsanypro@gmail.com
 
-🔗 Portfolio Live: https://jahidulsany.github.io/tasaask-bootstrap-migration/  ￼
+🔗 Portfolio Live: https://jahidulsany.github.io/tasaask-bootstrap-migration/ ￼
 
 ⸻
 
