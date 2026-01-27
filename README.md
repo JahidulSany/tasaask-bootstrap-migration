@@ -4,7 +4,7 @@ Tasaask (often referred to as Task SaaS) is a professional-grade, multipage task
 
 Welcome to the source code for my multipage Bootstrap SaaS website — a professional showcase of my skills as a full-stack developer.
 
-🔗 **Live Demo:** https://jahidulsany.github.io/tasaask-bootstrap-migration/ 
+🔗 **Live Demo:** https://jahidulsany.github.io/tasaask-bootstrap-migration/ <br>
 📁 **Repository:** https://github.com/JahidulSany/tasaask-bootstrap-migration
 
 ---
@@ -17,12 +17,12 @@ This project is a task-tracker SaaS app built using **HTML5**, **CSS3**, **Boost
 
 ## 🚀 Features
 
-✔️ Responsive layout — looks great on desktop, tablet, and mobile  
-✔️ Bootstrap 5 
-✔️ jQuery UI for dynamic content and interactions. 
-✔️ Features, services and pricing of the SaaS App 
-✔️ Contact form and social media details for business inquiries  
-✔️ Clean and modern UI with focus on readability and accessibility
+✔️ Responsive layout — looks great on desktop, tablet, and mobile  <br>
+✔️ Bootstrap 5 <br>
+✔️ jQuery UI for dynamic content and interactions. <br>
+✔️ Features, services and pricing of the SaaS App <br>
+✔️ Contact form and social media details for business inquiries  <br>
+✔️ Clean and modern UI with focus on readability and accessibility <br>
 
 ---
 
