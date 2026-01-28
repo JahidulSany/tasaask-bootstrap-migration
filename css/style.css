@@ -1,0 +1,132 @@
+/* Custom CSS Styles */
+:root {
+  --primary-color: #10c3c9;
+  --secondary-color: orange;
+  --text-color: #141414;
+  --primary-font: Verdana, Geneva, Tahoma, sans-serif;
+  --secondary-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+}
+
+.section-container {
+  padding: 100px 15px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin: 20px 0;
+  font-family: var(--primary-font);
+}
+
+.btn-button {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.btn-button:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transition: all 0.6s ease;
+}
+
+a.top-link {
+  text-align: center;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 900;
+  cursor: pointer;
+  color: blueviolet;
+  padding: 10px 0;
+}
+
+.top-link:hover {
+  color: var(--text-color);
+  transition: all 0.6s ease;
+}
+
+/* Header CSS Styles */
+a.logo {
+  text-transform: math-auto;
+  font-size: 2rem;
+  padding: 30px;
+  font-family: var(--primary-font);
+}
+
+span.logo-span {
+  color: var(--primary-color);
+  font-size: 2.2rem;
+}
+
+.position-sticky {
+  border-radius: 10px;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+.navbar-nav .nav-item {
+  margin: 0px 15px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: var(--text-color);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--primary-color);
+  transition: all 0.6s ease;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--primary-color);
+}
+
+.section-header {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+  color: var(--text-color);
+  margin: 50px 0;
+}
+
+.section-header::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+.unique-span {
+  color: var(--primary-color);
+  font-size: 1.3em;
+}
+
+/* Footer Styles */
+.footer {
+  padding: 75px 0;
+  background-color: var(--text-color);
+}
+
+.footer p {
+  color: antiquewhite;
+}

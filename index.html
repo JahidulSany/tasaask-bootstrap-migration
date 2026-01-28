@@ -11,45 +11,62 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <!-- jQuery UI -->
-    <script
-      src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"
-      integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css"
-    />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Top offer Link -->
-    <div>
-      <a href="pricing.html#see-your-plans" class="top-link">
-        🔥20% OFF all plans. Limited time offer🔥
-      </a>
-    </div>
+    <a
+      class="btn btn-link top-link"
+      href="pricing.html#see-your-plans"
+      role="button"
+      >🔥20% OFF all plans. Limited time offer🔥</a
+    >
 
     <!-- Header Section -->
     <header class="header-container position-sticky">
-      <h3 class="logo">ta<span class="logo-span">SaaS</span>k</h3>
-      <nav>
-        <ul class="navbar">
-          <li class="nav-items">
-            <a class="nav-item-active" href="./index.html">Home</a>
-          </li>
-          <li class="nav-items"><a href="./about.html">About</a></li>
-          <li class="nav-items"><a href="./features.html">Features</a></li>
-          <li class="nav-items"><a href="./pricing.html">pricing</a></li>
-          <li class="nav-items"><a href="./contact.html">Contact</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand logo" href="#"
+            >ta<span class="logo-span">SaaS</span>k</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex gap-3 column-wrap">
+              <button class="btn btn-button">Log In</button>
+              <button class="btn btn-button">Sign Up</button>
+            </div>
+          </div>
+        </div>
       </nav>
-      <div class="sign-in-up">
-        <button class="btn-button">Log In</button>
-        <button class="btn-button">Sign Up</button>
-      </div>
     </header>
 
     <!-- Main Content -->
@@ -57,7 +74,9 @@
 
     <!-- Footer Section -->
     <footer class="footer">
-      <p>Copyright &copy; 2026 Tasaask. All Rights Reserved</p>
+      <p class="text-center">
+        Copyright &copy; 2026 Tasaask. All Rights Reserved
+      </p>
     </footer>
 
     <!-- HTML Ends Here -->
