@@ -175,6 +175,27 @@ h1.section-title {
   margin: 20px auto;
 }
 
+/* About Us Page */
+.about-hero,
+.about-mission {
+  padding-bottom: 0;
+}
+
+.about-hero-image,
+.mission-icon,
+.team-icon {
+  width: 250px;
+  height: 150px;
+}
+
+.about-hero-text-container h3,
+.mission-text-container h3,
+.team-text-container h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--text-color);
+}
+
 /* Footer Styles */
 .footer {
   padding: 35px 0;
