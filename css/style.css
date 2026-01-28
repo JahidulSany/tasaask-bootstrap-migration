@@ -32,6 +32,11 @@ h6 {
   margin-bottom: 1.3rem;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .section-container {
   padding: 50px 15px;
 }
@@ -60,7 +65,6 @@ h6 {
   font-weight: bold;
   background: var(--secondary-color);
   border-radius: 5px;
-  margin-bottom: 1.1rem;
 }
 
 .btn-button:hover {
@@ -98,15 +102,15 @@ span.logo-span {
   font-size: 1.5rem;
 }
 
-/* .position-sticky {
-  border-radius: 10px;
-  position: sticky;
-  top: 0px;
+.position-sticky {
+  border-radius: 3px;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.09);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   z-index: 100;
-} */
+  padding: 1em;
+}
 
 .navbar-nav .nav-item {
   margin: 0px 15px;
@@ -162,6 +166,13 @@ h1.section-title {
 
 .text-antiquewhite {
   color: antiquewhite;
+}
+
+/* HomePage Features Section */
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
 }
 
 /* Footer Styles */
