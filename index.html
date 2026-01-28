@@ -18,7 +18,7 @@
   <body>
     <!-- Top offer Link -->
     <a
-      class="btn btn-link top-link"
+      class="btn btn-link d-block text-center top-link"
       href="pricing.html#see-your-plans"
       role="button"
       >🔥20% OFF all plans. Limited time offer🔥</a
@@ -45,7 +45,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./about.html">About</a>
@@ -60,7 +65,7 @@
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
             </ul>
-            <div class="d-flex gap-3">
+            <div class="d-flex gap-3 flex-column flex-lg-row">
               <button class="btn btn-button">Log In</button>
               <button class="btn btn-button">Sign Up</button>
             </div>
@@ -70,7 +75,88 @@
     </header>
 
     <!-- Main Content -->
-    <main></main>
+    <main>
+      <section class="section-container bg-image">
+        <div class="home-content">
+          <h1 class="section-title">Welcome to Tasaask</h1>
+          <p style="color: antiquewhite" class="section-desc">
+            Your ultimate task and project management solution designed to boost
+            productivity and streamline workflows.
+          </p>
+          <button class="btn-button">Get Started</button>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="section-container home-cta">
+        <h2 class="section-header">
+          Ready to <span class="unique-span">Boost</span> Your Productivity?
+        </h2>
+        <p class="section-desc">
+          Sign up for Tasaask today and take the first step towards efficient
+          task and project management.
+        </p>
+        <button class="btn-button get-started-button">Get Started Now</button>
+      </section>
+
+      <!-- Our Services -->
+      <section class="section-container home-features">
+        <h2 class="section-header">Core Features</h2>
+        <div class="features-container">
+          <div class="feature-item">
+            <h3 class="feature-title">Task Management</h3>
+            <img
+              src="./assets/icons/task_management.svg"
+              alt="Task Management Feature of Tasaask"
+              class="feature-icon"
+            />
+            <p class="feature-description">
+              Organize, prioritize, and track your tasks with ease using our
+              intuitive task management system. Stay on top of your to-do list
+              and never miss a deadline.
+            </p>
+          </div>
+          <div class="feature-item">
+            <h3 class="feature-title">Collaboration Tools</h3>
+            <img
+              src="./assets/icons/collaborations_tools.svg"
+              alt="Collaboration Tools Feature of Tasaask"
+              class="feature-icon"
+            />
+            <p class="feature-description">
+              Work seamlessly with your team using our built-in collaboration
+              features. Share tasks, set permissions, and communicate
+              effectively to ensure everyone is on the same page.
+            </p>
+          </div>
+          <div class="feature-item">
+            <h3 class="feature-title">Time Tracking</h3>
+            <img
+              class="feature-icon"
+              src="./assets/icons/time-tracking.svg"
+              alt="Time Tracking Feature of Tasaask"
+            />
+            <p class="feature-description">
+              Keep track of time spent on tasks and projects to improve
+              productivity. Generate reports and gain insights into how your
+              time is being utilized.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section">
+        <div class="container text-center">
+          <h2>Why Choose Tasaask?</h2>
+          <ul class="list-unstyled">
+            <li>Easy to use interface</li>
+            <li>Robust features</li>
+            <li>Affordable pricing</li>
+            <li>24/7 Customer Support</li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer Section -->
     <footer class="footer">

@@ -13,16 +13,36 @@ body {
   color: var(--text-color);
 }
 
-.section-container {
-  padding: 100px 15px;
-}
-
+/*
 p {
   font-size: 1.1rem;
   color: var(--text-color);
   margin: 20px 0;
   font-family: var(--primary-font);
+} */
+
+/* .section-container {
+  padding: 100px 15px;
 }
+
+/* .section-header {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+  color: var(--text-color);
+  margin: 50px 0;
+}
+
+.section-header::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 15px auto 0;
+  border-radius: 2px;
+} */
 
 .btn-button {
   text-transform: capitalize;
@@ -38,9 +58,12 @@ p {
   transition: all 0.6s ease;
 }
 
+/* .unique-span {
+  color: var(--primary-color);
+  font-size: 1.3em;
+} */
+
 a.top-link {
-  text-align: center;
-  display: block;
   font-size: 1.3rem;
   font-weight: 900;
   cursor: pointer;
@@ -97,29 +120,8 @@ span.logo-span {
   color: var(--primary-color);
 }
 
-.section-header {
-  text-transform: capitalize;
-  font-size: 2.5rem;
-  text-align: center;
-  font-weight: 800;
-  color: var(--text-color);
-  margin: 50px 0;
-}
 
-.section-header::after {
-  content: '';
-  display: block;
-  width: 120px;
-  height: 4px;
-  background-color: var(--primary-color);
-  margin: 15px auto 0;
-  border-radius: 2px;
-}
 
-.unique-span {
-  color: var(--primary-color);
-  font-size: 1.3em;
-}
 
 /* Footer Styles */
 .footer {
