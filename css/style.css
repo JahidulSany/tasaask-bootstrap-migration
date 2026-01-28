@@ -7,23 +7,29 @@
   --secondary-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+html{
+  font-size: 15px;
+}
+
 body {
   background-color: antiquewhite;
   font-family: var(--secondary-font);
   color: var(--text-color);
 }
 
-/*
 p {
-  font-size: 1.1rem;
   color: var(--text-color);
-  margin: 20px 0;
+  margin-bottom: 1.1rem;
   font-family: var(--primary-font);
-} */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.1rem;
+}
 
 /* .section-container {
-  padding: 100px 15px;
-}
+  padding: 50px 15px;
+} */
 
 /* .section-header {
   text-transform: capitalize;
@@ -46,10 +52,10 @@ p {
 
 .btn-button {
   text-transform: capitalize;
-  font-size: 1.1rem;
   font-weight: bold;
   background: var(--secondary-color);
   border-radius: 5px;
+  margin-bottom: 1.1rem;
 }
 
 .btn-button:hover {
@@ -58,13 +64,7 @@ p {
   transition: all 0.6s ease;
 }
 
-/* .unique-span {
-  color: var(--primary-color);
-  font-size: 1.3em;
-} */
-
 a.top-link {
-  font-size: 1.3rem;
   font-weight: 900;
   cursor: pointer;
   color: blueviolet;
@@ -79,17 +79,17 @@ a.top-link {
 /* Header CSS Styles */
 a.logo {
   text-transform: math-auto;
-  font-size: 2rem;
-  padding: 30px;
+  font-size: 1.3rem;
+  padding: 0 15px;
   font-family: var(--primary-font);
 }
 
 span.logo-span {
   color: var(--primary-color);
-  font-size: 2.2rem;
+  font-size: 1.5rem;
 }
 
-.position-sticky {
+/* .position-sticky {
   border-radius: 10px;
   position: sticky;
   top: 0px;
@@ -97,11 +97,10 @@ span.logo-span {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   z-index: 100;
-}
+} */
 
 .navbar-nav .nav-item {
   margin: 0px 15px;
-  font-size: 1.3rem;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -120,8 +119,36 @@ span.logo-span {
   color: var(--primary-color);
 }
 
+/* Home Page Hero Section */
+.bg-image {
+  position: relative;
+  background-image: url('../assets/images/banner-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
 
+.bg-image::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  z-index: -1;
+}
 
+h1.section-title {
+  color: darkcyan;
+  font-size: 2.5rem;
+}
+
+p.section-desc {
+  color: antiquewhite;
+}
 
 /* Footer Styles */
 .footer {
