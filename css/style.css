@@ -226,6 +226,82 @@ h1.section-title {
   margin-bottom: 15px;
 }
 
+
+
+/* Pricing Plans Page */
+.popular-plan {
+  position: relative;
+  padding-top: 30px;
+  border-radius: 0px 0px 10px 10px;
+  border: 2px solid blueviolet;
+  border-top: none;
+  z-index: 1;
+  margin-top: 35px;
+}
+
+span.popular-card {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.pricing-card {
+  background-color: #f0f9f3;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0 black;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.pricing-header {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: var(--text-color);
+  margin: 20px 0;
+}
+
+.pricing-card:hover {
+  box-shadow: 4px 4px 10px 0 black;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.pricing-plan-title {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.pricing-features li {
+  text-align: left;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 300;
+}
+
+.upgrade-btn {
+  background-color: blueviolet;
+  color: #f0f9f3;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.upgrade-btn:hover {
+  background-color: rgb(106, 28, 179);
+  color: white;
+  transition: all 0.6s ease;
+}
+
 /* Footer Styles */
 .footer {
   padding: 35px 0;
