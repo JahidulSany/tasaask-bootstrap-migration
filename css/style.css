@@ -38,7 +38,7 @@ img {
 }
 
 .section-container {
-  padding: 50px 15px;
+  padding: 50px 0;
 }
 
 .section-header {
@@ -58,6 +58,11 @@ img {
   background-color: var(--primary-color);
   margin: 15px auto 0;
   border-radius: 2px;
+}
+
+.section-desc {
+    text-align: center;
+    line-height: 1.35;
 }
 
 .btn-button {
@@ -94,6 +99,7 @@ a.logo {
   text-transform: math-auto;
   font-size: 1.3rem;
   padding: 0 15px;
+  font-weight: bold;
   font-family: var(--primary-font);
 }
 
@@ -194,6 +200,30 @@ h1.section-title {
   font-weight: 600;
   font-size: 1.3rem;
   color: var(--text-color);
+}
+
+/* Features Page */
+.features-header {
+  padding-bottom: 0;
+}
+
+.section-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-feature-item {
+  background-color: #f0f9f3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0 black;
+}
+
+.feature-title {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  text-transform: capitalize;
+  margin-bottom: 15px;
 }
 
 /* Footer Styles */
