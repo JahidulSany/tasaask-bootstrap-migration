@@ -61,8 +61,8 @@ img {
 }
 
 .section-desc {
-    text-align: center;
-    line-height: 1.35;
+  text-align: center;
+  line-height: 1.35;
 }
 
 .btn-button {
@@ -226,8 +226,6 @@ h1.section-title {
   margin-bottom: 15px;
 }
 
-
-
 /* Pricing Plans Page */
 .popular-plan {
   position: relative;
@@ -303,7 +301,6 @@ h3.pricing-header {
 
 /* Contact Page */
 
-
 /* Footer Styles */
 .footer {
   padding: 35px 0;
@@ -312,4 +309,74 @@ h3.pricing-header {
 
 .footer p {
   color: antiquewhite;
+}
+
+/* ------------------------------------
+----------- Responsive Design ---------
+--------------------------------------*/
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    font-size: 16px;
+  }
+
+  .section-container {
+    padding: 60px 0;
+  }
+
+  .pricing-card {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 18px;
+  }
+
+  h1.section-title {
+    font-size: 3rem;
+  }
+
+  .section-container {
+    padding: 80px 0;
+  }
+
+  .section-desc {
+    line-height: 1.4;
+  }
+
+  .pricing-card {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+
+  h1.section-title {
+    font-size: 4rem;
+  }
+
+  .section-container {
+    padding: 100px 0;
+  }
+
+  .section-header {
+    font-size: 2rem;
+  }
+
+  .section-desc {
+    line-height: 1.5;
+  }
+
+  .pricing-card {
+    width: 400px;
+  }
+
+  .footer {
+    padding: 70px 0;
+  }
 }
